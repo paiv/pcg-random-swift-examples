@@ -9,5 +9,5 @@ target 'Sample iOS App' do
     use_frameworks!
     project 'Sample iOS App cocoapods'
 
-    pod 'PcgRandom', :path => '../'
+    pod 'PcgRandom', '~> 2.0'
 end

@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		A5CC681A2DD0D2DB003F7BB0 /* RandogramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CC68192DD0D2DB003F7BB0 /* RandogramViewController.swift */; };
+		A5DD40092F5611C000A9BFCC /* PcgRandom in Frameworks */ = {isa = PBXBuildFile; productRef = A5DD40082F5611C000A9BFCC /* PcgRandom */; };
 		C431C4CF24253E0200336A98 /* AppRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = C431C4CE24253E0200336A98 /* AppRandom.swift */; };
 		C497417F24240927006A7AF4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C497417E24240927006A7AF4 /* HomeViewController.swift */; };
 		C497418124240A27006A7AF4 /* PaletteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C497418024240A27006A7AF4 /* PaletteViewController.swift */; };
@@ -40,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5DD40092F5611C000A9BFCC /* PcgRandom in Frameworks */,
 				C4EAC72F241DB63F001FBD6D /* PcgRandom in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -99,6 +101,7 @@
 			name = "Sample iOS App";
 			packageProductDependencies = (
 				C4EAC72E241DB63F001FBD6D /* PcgRandom */,
+				A5DD40082F5611C000A9BFCC /* PcgRandom */,
 			);
 			productName = "Sample iOS App";
 			productReference = C4EAC702241D8F8A001FBD6D /* Sample iOS App.app */;
@@ -130,7 +133,7 @@
 			);
 			mainGroup = C4EAC6F9241D8F8A001FBD6D;
 			packageReferences = (
-				A53E3EFA2DCA978600298EEE /* XCLocalSwiftPackageReference "../../swift-pcg-random" */,
+				A5DD40072F5611C000A9BFCC /* XCRemoteSwiftPackageReference "swift-pcg-random" */,
 			);
 			productRefGroup = C4EAC703241D8F8A001FBD6D /* Products */;
 			projectDirPath = "";
@@ -366,14 +369,23 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		A53E3EFA2DCA978600298EEE /* XCLocalSwiftPackageReference "../../swift-pcg-random" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = "../../swift-pcg-random";
+/* Begin XCRemoteSwiftPackageReference section */
+		A5DD40072F5611C000A9BFCC /* XCRemoteSwiftPackageReference "swift-pcg-random" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/paiv/swift-pcg-random.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
 		};
-/* End XCLocalSwiftPackageReference section */
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		A5DD40082F5611C000A9BFCC /* PcgRandom */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5DD40072F5611C000A9BFCC /* XCRemoteSwiftPackageReference "swift-pcg-random" */;
+			productName = PcgRandom;
+		};
 		C4EAC72E241DB63F001FBD6D /* PcgRandom */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = PcgRandom;

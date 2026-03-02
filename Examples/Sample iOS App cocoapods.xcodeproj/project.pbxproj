@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A50506962F5610C100EE2B09 /* RandogramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50506952F5610C100EE2B09 /* RandogramViewController.swift */; };
 		C0E1AF3F2A247B4EE0B6A4AC /* Pods_Sample_iOS_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A417D00E7B7F4515F017FEBB /* Pods_Sample_iOS_App.framework */; };
 		C42E23F32426B9F700E3D773 /* AppRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42E23F22426B9F700E3D773 /* AppRandom.swift */; };
 		C42E23F82426BA0500E3D773 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42E23F42426BA0400E3D773 /* HomeViewController.swift */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		982F528B1C8501FD821EED6A /* Pods-Sample iOS App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample iOS App.debug.xcconfig"; path = "Target Support Files/Pods-Sample iOS App/Pods-Sample iOS App.debug.xcconfig"; sourceTree = "<group>"; };
 		A417D00E7B7F4515F017FEBB /* Pods_Sample_iOS_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sample_iOS_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A50506952F5610C100EE2B09 /* RandogramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandogramViewController.swift; sourceTree = "<group>"; };
 		C42E23F22426B9F700E3D773 /* AppRandom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppRandom.swift; sourceTree = "<group>"; };
 		C42E23F42426BA0400E3D773 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C42E23F52426BA0500E3D773 /* DiceControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiceControl.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				C4ED25D9241ECD6800B434D7 /* LaunchScreen.storyboard */,
 				C4ED25D4241ECD6600B434D7 /* Main.storyboard */,
 				C42E23F62426BA0500E3D773 /* PaletteViewController.swift */,
+				A50506952F5610C100EE2B09 /* RandogramViewController.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				C42E23FB2426BA0500E3D773 /* DiceViewController.swift in Sources */,
 				C42E23FA2426BA0500E3D773 /* PaletteViewController.swift in Sources */,
 				C4ED25CF241ECD6600B434D7 /* AppDelegate.swift in Sources */,
+				A50506962F5610C100EE2B09 /* RandogramViewController.swift in Sources */,
 				C42E23F92426BA0500E3D773 /* DiceControl.swift in Sources */,
 				C42E23F82426BA0500E3D773 /* HomeViewController.swift in Sources */,
 			);
